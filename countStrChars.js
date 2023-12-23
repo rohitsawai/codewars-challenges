@@ -1,3 +1,9 @@
+/**
+ * ref: https://www.codewars.com/kata/52efefcbcdf57161d4000091/train/javascript
+ * @param {*} string 
+ * @returns 
+ */
+
 function count(string) {
   // TODO
   const cnt = string.split("").reduce((acc, curr) => {
